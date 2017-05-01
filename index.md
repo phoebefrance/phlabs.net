@@ -1,18 +1,12 @@
-<?php include "_includes/phlabsheader.inc.php"; ?>
-
-
+{% include phlabsheader.html %}
 
 <body id="phlabsbody_about"> 
 
-		<?php include "_includes/nav1.inc.php"; ?>
+		{% include nav1.html %}
 
 	<div id="wrapper"> 
 
-		<?php include "_includes/phlabsnav2.inc.php"; ?>
-	
-
-
-
+		{% include phlabsnav2.html %}
 
 		<div id="content">
 			<div id="content_inner">

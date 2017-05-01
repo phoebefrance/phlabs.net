@@ -1,18 +1,12 @@
-<?php include "_includes/phlabsheader.inc.php"; ?>
-
-
+{% include phlabsheader.html %}
 
 <body id="phlabsbody_projects"> 
 	
-		<?php include "_includes/nav1.inc.php"; ?>
+		{% include nav1.html %}
 	
 	<div id="wrapper"> 
 
-		<?php include "_includes/phlabsnav2.inc.php"; ?>
-
-
-
-
+		{% include nav2.html %}
 
 		<div id="content">
 			<div id="content_inner">
@@ -20,7 +14,6 @@
 			<h2 class="phlabs" id="first">Recent Projects</h2>
 
 					<p>Here are some recent projects by Ph Labs.</p>
-
 
 			<h2 class="phlabs">New: International Council for Archaeozoology</h2>
 
