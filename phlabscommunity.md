@@ -1,8 +1,11 @@
-{% include phlabsheader.html %}
+---
+layout: page
+title:  "PH Labs"
+---
 
 <body id="phlabsbody_community"> 
 		
-		{% include nav1.html %}
+	{% include nav1.html %}
 	
 	<div id="wrapper"> 
 
@@ -53,17 +56,13 @@
 
 					<p>Chris Blow, Director of User Experience at <a href="http://meedan.org">Meedan</a>, regularly provides insight into user experience and web design at Ph Labs. His design, research, and development skills demonstrate what is possible in online international collaborative projects.</p>
 
-			<!--
+<!--
 <h2 class="phlabs">And Also</h2>
-
-					<p><a target="_blank" href="http://christinamcphee.net">christinamcphee.net (?)</a></p>
-					<p><a target="_blank" href="http://			">chip lord</a></p>
-					<p><a target="_blank" href="http://			">InSTEDD</a></p>
-
-
-			<h2 class="phlabs">Links</h2>
-
-					<p><a target="_blank" href="http://			">cool shit you link to a lot</a></p>
+<p><a target="_blank" href="http://christinamcphee.net">christinamcphee.net (?)</a></p>
+<p><a target="_blank" href="http://			">chip lord</a></p>
+<p><a target="_blank" href="http://			">InSTEDD</a></p>
+<h2 class="phlabs">Links</h2>
+<p><a target="_blank" href="http://			">cool shit you link to a lot</a></p>
 -->
 
 
@@ -72,5 +71,3 @@
 		</div><!-- end content -->
 	</div><!-- end wrapper -->
 </body>
-
-

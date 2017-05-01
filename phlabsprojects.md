@@ -1,19 +1,22 @@
-{% include phlabsheader.html %}
+---
+layout: page
+title:  "PH Labs"
+---
 
 <body id="phlabsbody_projects"> 
 	
-		{% include nav1.html %}
+	{% include nav1.html %}
 	
 	<div id="wrapper"> 
 
-		{% include nav2.html %}
+		{% include phlabsnav2.html %}
 
 		<div id="content">
 			<div id="content_inner">
 	
 			<h2 class="phlabs" id="first">Recent Projects</h2>
 
-					<p>Here are some recent projects by Ph Labs.</p>
+			<p>Here are some recent projects by Ph Labs.</p>
 
 			<h2 class="phlabs">New: International Council for Archaeozoology</h2>
 
@@ -64,23 +67,17 @@
 
 
 
-			<h2 class="phlabs">Nuclear Philosopher</h2>
+		<!-- 	<h2 class="phlabs">Nuclear Philosopher</h2>
 			
 				<p><a target="_blank" href="http://nuclearphilosopher.org">nuclearphilosopher.org</a></p>
 
 				<p>This project is the website of writer and researcher Anne I. Harrington.  After completing her Ph.D. and moving on to the academic job market, Harrington wanted a website that would help her update her professional image and present her research to broader readership.  Working closely together, she and Ph Labs came up with a design and architecture that was at once personal and professional.  It is a clean design that can be scanned quickly for content, and leaves readers with a clear sense of her range of research expertise and her leadership and teaching skills.  It also requires minimal technical support to update the content.</p>
-
-
-
-
+ -->
 			<h2 class="phlabs">deAppropriation Project Archive</h2>
 			
 				<p><a target="_blank" href="http://deappropriationproject.org">deappropriationproject.org</a></p>
 
 				<p>Artist and architect Bruce Tomb first hired Ph Labs to build an online archive of digital images of street art taken at his home at 1240 Valencia Street in the Mission neighborhood of San Francisco.  After being invited to participate in the Mission Muralismo project later that year, we continued our collaboration to create a time-lapse slideshow video of digital images taken over the course of nearly a decade.  To display the slideshow, Ph Labs designed a new page for the existing website, as well as recoded the entire website to semantic web standards in order to facilitate easier implementation of future updates and additions.</p>
-
-
-
 
 			<!--
 <h2 class="phlabs">Past Projects</h2>
@@ -126,16 +123,7 @@
 
 				<p>Donec sem mi, condimentum in tempor a, fermentum non nibh. Pellentesque tempus mauris non turpis pellentesque lacinia. Etiam laoreet volutpat dolor at convallis. Nam id nulla at orci volutpat venenatis hendrerit non nisi. Etiam sit amet enim at sem laoreet ultrices tincidunt eget ligula. Etiam cursus eros quis arcu interdum pharetra. Nulla facilisi. Fusce enim sem, dictum a mattis a, aliquet euismod odio. Aliquam rutrum tristique lectus id tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam euismod suscipit tellus aliquet pulvinar.</p>
 -->
-
-
-
-			
-
-
-						
 			</div><!-- end content_inner -->
 		</div><!-- end content -->
 	</div><!-- end wrapper -->
 </body>
-
-
